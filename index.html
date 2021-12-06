@@ -9,15 +9,15 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="heading"> Cash Register Manager</h1>
-        <p class="description"> Enter the bill amount and cash given by the customer and know the minimum no. of notes to return </p>
+        <h1 class="heading"> Cash Register Manager 💰 </h1>
+        <p class="description" style="color: #D97706;"> <b>Enter the bill amount and cash given by the customer and know the minimum no. of notes to return </b> </p>
 
         <!-- creating input for the bill amount (making the entire HTML Piece. Label is good practice so that as its more accessible
             for is connecting to the id below. so that one knows that this label is for this specific ID)-->
-        <label for="bill-amount">Bill Amount:</label>
+        <label for="bill-amount" style="color: #D97706;;"><h2>Bill Amount:</h2></label>
         <input id="bill-amount" type="text" />
         <!-- label and input box for Cash Given -->
-        <label for="cash-given">Cash Given:</label>
+        <label for="cash-given" style="margin-top: 2rem; color: #D97706;"><h2>Cash Given:</h2></label>
         <input id="cash-given" type="text" />
         <button id="check-button">Check</button>
 
@@ -28,10 +28,10 @@
         <!-- creating table for the return change -->
         <table class="change-table">
             <!-- caption will provide description for table -->
-            <caption> Return Change </caption>
+            <caption><h2 style="color: #D97706; margin-bottom: 2rem;"><b> Return Change </b></h2> </caption>
             <tr>
                 <!-- th= table header, td=table element. Now if there are multiple rows and you want 10 td so you just type td*10 -->
-              <th>No. of Notes</th>
+              <th style="background-color: #B45309;">No. of Notes</th>
                <td class="no-of-notes"></td>
                <td class="no-of-notes"></td>
                <td class="no-of-notes"></td>
@@ -40,15 +40,15 @@
                <td class="no-of-notes"></td>
                <td class="no-of-notes"></td>
             </tr>
-            <tr>
-                <th>Note</th>
-                <td>2000</td>
-                <td>500</td>
-                <td>100</td>
-                <td>20</td>
-                <td>10</td>
-                <td>5</td>
-                <td>1</td>
+            <tr> 
+                <th style="background-color: #B45309;">Note</th>
+                <td style="background-color: #B45309;">2000</td>
+                <td style="background-color: #B45309;">500</td>
+                <td style="background-color: #B45309;">100</td>
+                <td style="background-color: #B45309;">20</td>
+                <td style="background-color: #B45309;">10</td>
+                <td style="background-color: #B45309;">5</td>
+                <td style="background-color: #B45309;">1</td>
             </tr>
         </table>
     </div>
