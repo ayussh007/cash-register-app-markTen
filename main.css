@@ -1,0 +1,13 @@
+* {
+ background-color: blue;
+}
+
+.container {
+    /* Flex displays an element as a flexible structure. The flex-direction property specifies the direction of the flexible items.
+       The flexible items are displayed vertically, as a column*/
+    display: flex;
+    flex-direction: column;
+    /* vh means viewport width. it means element will have a width that's 60% of the viewport size */
+    width: 60vh; 
+    /* 2rem will always be equal to 36px */
+}
