@@ -3,8 +3,11 @@ A web app created using JavaScript, that allows users to find the minimum number
 
 
 Tech used:
+
 HTML
+
 CSS
+
 JS
 
 ScreenShot
